@@ -11,5 +11,11 @@ public class m_1 {
 		System.out.println(player +"は、モンスターと戦った");
 		System.out.println(player +"は、モンスターをたおした");
 
+// 数の表示とサイコロ   
+    double rand = Math.random();
+    System.out .println(rand);
+    int number = 100;
+    System.out.println("スライムが" + number + "匹あらわれた");    
+
 	}
 }
