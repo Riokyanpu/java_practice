@@ -17,5 +17,9 @@ public class m_1 {
     int number = 100;
     System.out.println("スライムが" + number + "匹あらわれた");    
 
+// 数の表示とサイコ
+		int number = 100;
+		System.out.println("スケルトン" + number + "体あらわれた");
+
 	}
 }
