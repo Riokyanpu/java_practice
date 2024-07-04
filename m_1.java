@@ -17,9 +17,11 @@ public class m_1 {
     int number = 100;
     System.out.println("スライムが" + number + "匹あらわれた");    
 
-// 数の表示とサイコ
-		int number2 = 300;
-		System.out.println("スケルトン" + number2 + "体あらわれた");
+// 数の表示とサイコロ
+double rand2 = Math.random() * 100 * 1; //小数点以下の数値を扱うことのできるデータ型
+System.out.println(rand2);
+int number2 = (int)rand2; //型変換（整数に）
+System.out.println("スケルトン" + number2 + "体あらわれた");
 
 	}
 }
