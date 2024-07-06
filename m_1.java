@@ -31,6 +31,7 @@ System.out.println("スケルトン" + number2 + "体あらわれた");
     System.out.println(number3 * 20); //掛け算
     System.out.println(number3 / 20); //割り算
     System.out.println(number3 % 15); //あまり
-	
+    System.out.println(number3 + 100 + 20 * 3); 
+		System.out.println(number3 + (100 + 20) * 3); //高い ( ) ｜ * / % 低い + -
 	}
 }
