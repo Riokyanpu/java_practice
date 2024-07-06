@@ -24,10 +24,13 @@ int number2 = (int)rand2; //型変換（整数に）
 System.out.println("スケルトン" + number2 + "体あらわれた");
 
 //計算する
-int number3 = 100;
-System.out.println(number3);
-System.out.println(number3 + 20); //足し算
-System.out.println(number3 - 20); //引き算
-
+  int number3 = 100;
+    System.out.println(number3);
+    System.out.println(number3 + 20); //足し算
+    System.out.println(number3 - 20); //引き算
+    System.out.println(number3 * 20); //掛け算
+    System.out.println(number3 / 20); //割り算
+    System.out.println(number3 % 15); //あまり
+	
 	}
 }
