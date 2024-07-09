@@ -33,5 +33,14 @@ System.out.println("スケルトン" + number2 + "体あらわれた");
     System.out.println(number3 % 15); //あまり
     System.out.println(number3 + 100 + 20 * 3); 
 		System.out.println(number3 + (100 + 20) * 3); //高い ( ) ｜ * / % 低い + -
+
+// 値段を計算する
+		 int apple_price = 350;  //リンゴの単価
+		 int apple_num = 5;      //リンゴを買う数
+		 System.out.println("りんごの単価:" + apple_price + "円");
+		 System.out.println("りんごを買う数:" + apple_num + "個");
+		 
+		 int total = apple_price * apple_num;
+		 System.out.println("合計金額" + total + "円"); 
 	}
 }
