@@ -50,5 +50,10 @@ System.out.println("スケルトン" + number2 + "体あらわれた");
      
      int total2 = apple_num2 * apple_price2;
      System.out.println("合計金額:" + total2 + "円");
+
+     int number4 =(int)(Math.random() * 10 + 1);	// 匹数 1 ～ 10
+     System.out.println("体重100キロのスライムが、" + number4 + "匹あらわれた。");
+     int total3 = number4 * 100;
+     System.out.println("スライムの合計体重は、" + total3 + "キロです。");
 	}
 }
