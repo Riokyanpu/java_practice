@@ -42,5 +42,13 @@ System.out.println("スケルトン" + number2 + "体あらわれた");
 		 
 		 int total = apple_price * apple_num;
 		 System.out.println("合計金額" + total + "円"); 
+
+     int apple_price2 = (int)(Math.random() * 3 + 1) * 100; //リンゴの単価
+     int apple_num2 = (int)(Math.random() * 10 + 1);     // リンゴを買う数
+     System.out.println("りんごの単価:" + apple_price2 + "円");
+     System.out.println("りんごを買う数:" + apple_num2 + "円");
+     
+     int total2 = apple_num2 * apple_price2;
+     System.out.println("合計金額:" + total2 + "円");
 	}
 }
