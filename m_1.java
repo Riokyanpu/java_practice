@@ -55,5 +55,11 @@ System.out.println("スケルトン" + number2 + "体あらわれた");
      System.out.println("体重100キロのスライムが、" + number4 + "匹あらわれた。");
      int total3 = number4 * 100;
      System.out.println("スライムの合計体重は、" + total3 + "キロです。");
+
+// データの種類
+     int number5 = 100;	// 数値
+     String text = "paiza";	// 文字列
+     System.out.println(number5);
+     System.out.println(text);
 	}
 }
