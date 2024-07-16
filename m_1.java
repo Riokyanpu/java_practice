@@ -61,5 +61,11 @@ System.out.println("スケルトン" + number2 + "体あらわれた");
      String text = "paiza";	// 文字列
      System.out.println(number5);
      System.out.println(text);
+     int number = 100 + 30;	// 数値
+     String text = "ハロー" + "paiza";	// 文字列
+     System.out.println(number);
+     System.out.println(text);
+     System.out.println(number + text);
+     System.out.println(number + 20);
 	}
 }
