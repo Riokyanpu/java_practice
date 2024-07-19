@@ -63,5 +63,10 @@ System.out.println("スケルトン" + number2 + "体あらわれた");
      System.out.println(text);
      System.out.println(number5 + text);
      System.out.println(number5 + 20);
+
+     String a = "テスト";
+     String b = "サンプル";
+     String c = "点数は50点";
+     System.out.println(a + b + c);
 	}
 }
