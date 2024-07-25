@@ -10,6 +10,7 @@ public class m_2 {
         
         int number2 =(int)(Math.random() * 3 + 1);
         if (number2 == 1) {
+                System.out.println("あなたの順位は" + number2 + "です");
                 System.out.println("おめでとう!");
         } else{
                 System.out.println("あなたの順位は" + number2 + "位です");
