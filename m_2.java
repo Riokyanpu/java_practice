@@ -7,6 +7,13 @@ public class m_2 {
         } else {
                 System.out.println("on?");//条件式が成立しなかった時の結果
                 System.out.println("on?");
+        
+        int number2 =(int)(Math.random() * 3 + 1);
+        if (number2 == 1) {
+                System.out.println("おめでとう!");
+        } else{
+                System.out.println("あなたの順位は" + number2 + "位です");
+        } 
         }
     }
 }
