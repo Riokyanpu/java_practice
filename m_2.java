@@ -15,6 +15,15 @@ public class m_2 {
         } else{
                 System.out.println("あなたの順位は" + number2 + "位です");
         } 
+// if文による条件分岐　else if
+        int number3 = 2;
+        if (number3 == 1) {
+          System.out.println("スキ！");		// 条件式が成立したときの処理
+        } else if (number3 == 2) {
+          System.out.println("どちらでもない");
+      } else {
+        System.out.println("キライ");		// 条件式が成立しなかったときの処理
+      }
         }
     }
 }
