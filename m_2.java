@@ -32,7 +32,14 @@ public class m_2 {
               System.out.println("正午"); 
           }  else if (time > 12) {
               System.out.println("午後"); 
-          }  
+          } 
+ // if文による条件分岐　比較演算子 その２
+          int age = (int)(Math.random() * 5 + 18);
+          if (age < 20) {
+                System.out.print(age + "才は飲酒不可");   
+          } else if (age >= 20 ) {
+                  System.out.print(age + "才は飲酒可能"); 
+          } 
         }
     }
 }
