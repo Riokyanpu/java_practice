@@ -40,6 +40,15 @@ public class m_2 {
           } else if (age >= 20 ) {
                   System.out.print(age + "才は飲酒可能"); 
           } 
+// if文による条件分岐　比較演算子 その3
+          int place = (int)(Math.random() * 12+ 1);
+          System.out.print(place + "位");
+          
+          if (place < 7) {
+            System.out.println("入賞");
+          } else if (place >= 7) {
+            System.out.println("入賞圏外");
+          }
         }
     }
 }
