@@ -72,7 +72,18 @@ public class m_2 {
         } else {
           System.out.println("omikujiの中身は" + omikuji2 + "なので大凶");
         }
-        
+
+// RPGのクリティカルヒットを再現
+// 比較演算子 == > < >= <= !=
+
+
+// スライムと戦っている。
+// 1から10のサイコロをふって、
+// 6未満：サイコロの目だけダメージを与えたと表示。
+// 6以上：クリティカルヒットとして、100のダメージを与えたと表示。
+
+        int hit = (int)(Math.random() * 10 * 1);
+        System.out.println(hit);
         }
     }
 }
