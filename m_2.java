@@ -84,6 +84,10 @@ public class m_2 {
 
         int hit = (int)(Math.random() * 10 * 1);
         System.out.println(hit);
+        if (hit < 6) {
+	        System.out.println("スライムに、" + hit + "のダメージを与えた!");
+	      }
+        
         }
     }
 }
