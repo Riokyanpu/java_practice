@@ -86,7 +86,9 @@ public class m_2 {
         System.out.println(hit);
         if (hit < 6) {
 	        System.out.println("スライムに、" + hit + "のダメージを与えた!");
-	      }
+	      } else {
+          System.out.println("クリティカルヒット！スライムに、100のダメージを与えた！");
+        } 
         
         }
     }
