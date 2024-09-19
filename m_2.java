@@ -96,7 +96,19 @@ public class m_2 {
         } else {
           System.out.println("追加攻撃に失敗!");
         }
+
+        int seireki = 2015;
+        System.out.println("西暦" + seireki + "年");
         
+        //西暦年から平成年を求める
+        //平成1年とは、西暦1989年、その差は、1988
+        //例：西暦年 - 1988 = 平成1年とは、平成１年
+        //例：西暦2015 - 1988 = 平成27年
+        
+        int heisei = seireki - 1988;
+        System.out.println("平成" + heisei + "年です。");
+  
+    
         }
     }
 }
