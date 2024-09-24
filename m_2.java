@@ -1,3 +1,5 @@
+import java.util.Calendar;
+
 public class m_2 {
 //01:IF文による条件分岐
     public static void main(String[] args) {
@@ -96,8 +98,9 @@ public class m_2 {
         } else {
           System.out.println("追加攻撃に失敗!");
         }
-
-        int seireki = 2015;
+        Calendar calendar = Calendar.getInstance();
+        int seireki = calendar.get(calendar.YEAR);
+        //int seireki = 2015;
         System.out.println("西暦" + seireki + "年");
         
         //西暦年から平成年を求める
@@ -108,7 +111,14 @@ public class m_2 {
         int heisei = seireki - 1988;
         System.out.println("平成" + heisei + "年です。");
   
-    
+// 複数の条件を組み合わせる - AND
+        int number4 = 1;
+        if (number4 == 1) {
+            System.out.println("スキ!");  //条件が成立した時の処理
+        } else {
+            System.out.println("キライ"); //条件が成立しなかった時の処理
+        }  
+
         }
     }
 }
