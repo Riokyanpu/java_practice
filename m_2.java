@@ -113,12 +113,21 @@ public class m_2 {
   
 // 複数の条件を組み合わせる - AND
         int number4 = 1;
-        if (number4 == 1) {
+        int number5 = 1;
+        if (number4 == 1 && number5 == 1) {
             System.out.println("スキ!");  //条件が成立した時の処理
         } else {
             System.out.println("キライ"); //条件が成立しなかった時の処理
-        }  
-
+        }
+        double rand = Math.random() * 100 + 1;
+        int number6 = (int)rand;
+        System.out.println(number6);
+        if (number6 >= 30 && number6 <= 60) {
+            System.out.println("あたり");
+        } else {
+            System.out.println("残念");
+        }
+        
         }
     }
 }
