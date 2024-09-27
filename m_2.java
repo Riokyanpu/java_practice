@@ -134,6 +134,14 @@ public class m_2 {
         if (number_p1 >=2 && number_p1 <=5) {
             System.out.println("あと少し");
         }
+// 複数の条件を組み合わせる - OR
+
+        if (number4 == 1 || number5 == 1) {
+            System.out.println("スキ!");  //条件が成立した時の処理
+        } else {
+            System.out.println("キライ"); //条件が成立しなかった時の処理
+        }
+
         }
     }
 }
