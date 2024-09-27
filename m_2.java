@@ -127,7 +127,13 @@ public class m_2 {
         } else {
             System.out.println("残念");
         }
-        
+        double rand2 = (Math.random() * 10) + 1;
+        int number_p1 = (int) rand2;
+        System.out.println("あなたの順位は" + number + "位です");
+
+        if (number_p1 >=2 && number_p1 <=5) {
+            System.out.println("あと少し");
+        }
         }
     }
 }
