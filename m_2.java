@@ -141,7 +141,14 @@ public class m_2 {
         } else {
             System.out.println("キライ"); //条件が成立しなかった時の処理
         }
-
+        //int number6 = 1;
+        System.out.println(number6);
+        if (number6<=30 || number6 >= 60) {
+            System.out.println("あたり");
+        } else {
+            System.out.println("ハズレ");
+        }
+        
         }
     }
 }
