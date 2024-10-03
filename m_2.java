@@ -148,7 +148,15 @@ public class m_2 {
         } else {
             System.out.println("ハズレ");
         }
-        
+        //double rand = (Math.random() * 71) + 30;
+        int discomfort = (int) rand;
+        System.out.println("不快指数は" + discomfort + "です。");
+
+        if (discomfort <=55 || discomfort >=70) {
+        System.out.println("不快です");
+       
+        }
+
         }
     }
 }
