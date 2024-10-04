@@ -156,7 +156,16 @@ public class m_2 {
         System.out.println("不快です");
        
         }
-
+        // 条件の評価結果
+        //int number =1;
+        boolean flag = number == 1;
+        if (number == 1) {
+            System.out.println("OK"); //条件が成立した時の処理
+        } else {
+            System.out.println("NO"); //条件が成立しなかった時の処理
+        }
+        System.out.println(flag);
+        
         }
     }
 }
