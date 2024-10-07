@@ -166,7 +166,13 @@ public class m_2 {
         }
         System.out.println(flag);
         
+        System.out.println("あなたの順位は" + number + "位です");
+        //boolean flag = number <= 3;
+        if (number <= 3) {
+            System.out.println("入賞おめでとう");
         }
+
+      }
     }
 }
 
