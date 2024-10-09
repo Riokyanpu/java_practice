@@ -171,7 +171,17 @@ public class m_2 {
         if (number <= 3) {
             System.out.println("入賞おめでとう");
         }
-
+// データ型 
+        System.out.println(10 / 3);
+        System.out.println(10 / 3.0);
+        
+        double number1 = 3.14;
+        System.out.println(number1);
+        System.out.println((int)number1);
+        
+        //int number2 = 3;
+        System.out.println(number2);
+        System.out.println((double)number2); 
       }
     }
 }
