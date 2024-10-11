@@ -172,17 +172,26 @@ public class m_2 {
             System.out.println("入賞おめでとう");
         }
 // データ型 
-        System.out.println(10 / 3);
-        System.out.println(10 / 3.0);
+    //public class Main {
+      //public static void main(String[] args) {
+        System.out.println(10 / 3);  // 整数同士の割り算（結果: 3）。小数点以下は切り捨てられる。
+        System.out.println(10 / 3.0);  // 整数を実数（3.0）で割ることで、結果が浮動小数点数になる（結果: 3.333...）。
         
-        double number1 = 3.14;
-        System.out.println(number1);
-        System.out.println((int)number1);
+        double number1 = 3.14;  // 浮動小数点数（double型）の変数number1に3.14を代入。
+        System.out.println(number1);  // そのままnumber1を出力（結果: 3.14）。
+        System.out.println((int)number1);  // number1をint型にキャスト（変換）し、小数点以下を切り捨てて出力（結果: 3）。
         
-        //int number2 = 3;
-        System.out.println(number2);
-        System.out.println((double)number2); 
+        //int number2 = 3;  // 整数（int型）の変数number2に3を代入。
+        System.out.println(number2);  // そのままnumber2を出力（結果: 3）。
+        System.out.println((double)number2);  // number2をdouble型にキャストし、実数として出力（結果: 3.0）。
+        
+        String text = "123";  // 文字列"123"をtext変数に代入。
+        System.out.println(text);  // 文字列をそのまま出力（結果: "123"）。
+        System.out.println(Integer.parseInt(text) * 10);  // 文字列を整数に変換し、10倍して出力（結果: 1230）。
+        System.out.println(Double.parseDouble(text) * 10);  // 文字列を浮動小数点数に変換し、10倍して出力（結果: 1230.0）。
+
       }
+      
     }
 }
 
