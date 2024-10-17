@@ -190,8 +190,12 @@ public class m_2 {
         System.out.println(Integer.parseInt(text) * 10);  // 文字列を整数に変換し、10倍して出力（結果: 1230）。
         System.out.println(Double.parseDouble(text) * 10);  // 文字列を浮動小数点数に変換し、10倍して出力（結果: 1230.0）。
 
+        String text2 = "0.08";
+        double number7 = Double.parseDouble(text2); // 文字列をdouble型に変換
+        System.out.println(number7);
+       
+        
       }
-      
     }
 }
 
