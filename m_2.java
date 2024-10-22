@@ -194,8 +194,14 @@ public class m_2 {
         double number7 = Double.parseDouble(text2); // 文字列をdouble型に変換
         System.out.println(number7);
        
-        
+// 税込み金額を計算する
+      int price = 1980;
+      System.out.println("定価 :" + price + "円");
+      int discountPraice = (int)(price * 0.85);
+      System.out.println("割引価格は :" + discountPraice + "円です。");
+      
       }
+
     }
 }
 
