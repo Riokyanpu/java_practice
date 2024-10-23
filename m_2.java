@@ -195,12 +195,35 @@ public class m_2 {
         System.out.println(number7);
        
 // 税込み金額を計算する
-      int price = 1980;
+//public class Main {
+  //public static void main(String[] args) {
+      // 商品の定価を設定
+      int price = 3500; 
       System.out.println("定価 :" + price + "円");
-      int discountPraice = (int)(price * 0.85);
+      
+      // 15%割引後の価格を計算し、int型にキャストして小数点以下を切り捨てる
+      int discountPraice = (int)(price * 0.85); 
       System.out.println("割引価格は :" + discountPraice + "円です。");
-      int amount = (int)(discountPraice * 1.08);
+
+      // 割引後の価格に8%の消費税を加算して税込価格を計算
+      // 結果はdouble型になるが、int型にキャストして小数点以下を切り捨てる
+      int amount = (int)(discountPraice * 1.08); 
       System.out.println("税込み価格は :" + amount + "円です。");
+
+      // 人数を5人と設定
+      int person = 5; 
+      System.out.println("人数が、" + person + "人の場合。");
+
+      // 一人当たりの支払額を計算（総額を人数で割った商）
+      int amountPerPerson = amount / person;
+
+      // 割り切れない場合の余りを計算
+      int remainder = amount % person;
+
+      // 一人当たりの支払額と余りを表示
+      System.out.println("一人当たり" + amountPerPerson + "円、余り" + remainder + "円です。");
+
+      
       }
 
     }
