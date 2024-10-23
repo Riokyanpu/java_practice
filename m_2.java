@@ -199,7 +199,8 @@ public class m_2 {
       System.out.println("定価 :" + price + "円");
       int discountPraice = (int)(price * 0.85);
       System.out.println("割引価格は :" + discountPraice + "円です。");
-      
+      int amount = (int)(discountPraice * 1.08);
+      System.out.println("税込み価格は :" + amount + "円です。");
       }
 
     }
