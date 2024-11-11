@@ -221,8 +221,21 @@ public class m_2 {
       int remainder = amount % person;
 
       // 一人当たりの支払額と余りを表示
-      System.out.println("一人当たり" + amountPerPerson + "円、余り" + remainder + "円です。");
 
+            // 100グラムあたりの価格を128円に設定
+            int price2 = 128; 
+            
+            // 肉の重さを300グラムに設定
+            int weight = 300; 
+            
+            // 総額を計算する
+            // 100グラムあたりの価格に重さを掛け、その結果を100で割って、実際の金額を計算
+            int amount2 = price2 * weight / 100; 
+            
+            // 結果を表示する
+            System.out.println("100グラム" + price2 + "円の肉、" + weight + "グラムは、" + amount2 + "円です。");
+
+    
       
       }
 
