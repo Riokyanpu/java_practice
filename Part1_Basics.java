@@ -2,6 +2,7 @@
 public class Part1_Basics {
   public static void main(String[] args) { // メインメソッドを定義します。Javaプログラムの開始点です。
       System.out.println("hollo wriod");   // "hollo wriod" という文字列をコンソールに出力します。
+      
   
 //03 コメントを入力する
       System.out.println("hello world1"); //文字を表示
@@ -28,21 +29,14 @@ public class Part1_Basics {
       System.out.println(player + "は、モンスターと戦った");
       System.out.println(player + "は、モンスターをたおした");
 
-//06:サイコロを作ろう
-      double rand = Math.random() * 100 + 1;
-      //System.out.println(rand);
-      int number = (int)rand;
-      //System.out.println(number);
+//06: サイコロを作ろう
+      double rand = Math.random() * 100 + 1; // 1から100までの乱数を生成
+      int number = (int)rand; // 乱数を整数に変換
       System.out.println("スライムが" + number + "匹あらわれた");
-      /*double型は、小数点以下の数値を扱うことのできるデータ型です。
-      int型と同様に、多くの場面で使用されています。
-      型変換の例：
-      (int)60.5 ：60.5というdouble型の値を、60というint型の値として取り出す。*/
 
-//07:演算子で計算してみよう
-int number = (100 + 3) * 5;
-System.out.println(number);
-
+//07: 演算子で計算してみよう
+      int number2 = (100 + 3) * 5; // 計算の結果を格納
+      System.out.println(number2);
 
 
     }
