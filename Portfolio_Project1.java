@@ -32,9 +32,9 @@ public class Portfolio_Project1 {
       System.out.println("<b>こんにちは</b></p>");
       
       // テキストで改行なしの場合
-      System.out.print("<h1>hello world</h1>");
-      System.out.print("<p>世界の皆さん、");
-      System.out.print("<b>こんにちは</b></p>");
+      System.out.prinlt("<h1>hello world</h1>");
+      System.out.prinlt("<p>世界の皆さん、");
+      System.out.prinlt("<b>こんにちは</b></p>");
       
       // HTMLとして出力してみよう
       System.out.println("<p>勇者は、荒野を歩いていた</p>");
@@ -43,7 +43,7 @@ public class Portfolio_Project1 {
       System.out.println("<b>モンスター</b>があらわれた");
   }
 
-//05: 変数を使えるようになろう
+//05: プレイヤー名を変数に格納
   public static void runChapter5() {
       String player = "勇者"; // 文字列データの変数
       System.out.println(player + "は、荒野を歩いていた");
@@ -51,7 +51,7 @@ public class Portfolio_Project1 {
       System.out.println(player + "は、モンスターをたおした");
   }
 
-//06: サイコロを作ろう
+//06: 乱数を生成し、整数に変換して表示
   public static void runChapter6() {
       double rand = Math.random() * 100 + 1; // 1から100までの乱数を生成
       int number = (int)rand; // 乱数を整数に変換
@@ -93,8 +93,8 @@ public class Portfolio_Project1 {
     String a = "モンスターが";
 		String b = "あらわれた";
 		System.out.println(a + b);
-    String a = "01234";
-		String b = "56789";
+    String c = "01234";
+		String d = "56789";
 		System.out.println(a + b);
 
   }
