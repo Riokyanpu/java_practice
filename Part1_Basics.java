@@ -38,6 +38,23 @@ public class Part1_Basics {
       int number2 = (100 + 3) * 5; // 計算の結果を格納
       System.out.println(number2);
 
+//08:値段を計算してみよう
+      int apple_price = (int)(Math.random() * 3 + 1) * 100; // リンゴの単価
+	    int apple_num = (int)(Math.random() * 10 + 1); //リンゴを買う数
+	    System.out.println("りんごの単価" + apple_price + "円");
+	    System.out.println("りんごを買う数" + apple_num + "個");
+	    
+	    int total = apple_price * apple_num;
+	    System.out.println("合計金額 :" + total + "円");
+
+//09:データの型を覚えよう
+      int number = 100 + 20;	// 数値
+      String text = "halo " + "man";	// 文字列
+      System.out.println(number);
+      System.out.println(text);
+      System.out.println(number * 50);
+      System.out.println(text + number);
+
 
     }
 
