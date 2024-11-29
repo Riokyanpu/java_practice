@@ -32,9 +32,9 @@ public class Portfolio_Project1 {
       System.out.println("<b>こんにちは</b></p>");
       
       // テキストで改行なしの場合
-      System.out.prinlt("<h1>hello world</h1>");
-      System.out.prinlt("<p>世界の皆さん、");
-      System.out.prinlt("<b>こんにちは</b></p>");
+      System.out.println("<h1>hello world</h1>");
+      System.out.println("<p>世界の皆さん、");
+      System.out.println("<b>こんにちは</b></p>");
       
       // HTMLとして出力してみよう
       System.out.println("<p>勇者は、荒野を歩いていた</p>");

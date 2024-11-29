@@ -48,12 +48,12 @@ public class Part1_Basics {
 	    System.out.println("合計金額 :" + total + "円");
 
 //09:データの型を覚えよう
-      int number = 100 + 20;	// 数値
-      String text = "halo " + "man";	// 文字列
-      System.out.println(number);
+      int number1 = 100 + 20;  // 数値用に名前を変更
+      String text = "halo " + "man";  // 文字列
+      System.out.println(number1);  // number1を使用
       System.out.println(text);
-      System.out.println(number * 50);
-      System.out.println(text + number);
+      System.out.println(number1 * 50);
+      System.out.println(text + number1);
 
 
     }
