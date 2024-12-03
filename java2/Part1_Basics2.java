@@ -6,6 +6,15 @@ public class Part1_Basics2 {
           } else {
               System.out.println("ON!"); //条件式が成立しない時の処理
           }
+
+          int number2 = 2;
+          if (number2 == 1) {
+              System.out.println("問題ない");		// 条件式が成立したときの処理
+          } else if (number2 ==2) {
+              System.out.println("どちらでもない"); //条件式2が成立した時の処理
+          } else {
+              System.out.println("問題あり");		// 条件式が成立しなかったときの処理
+          }
     }
   
 }
