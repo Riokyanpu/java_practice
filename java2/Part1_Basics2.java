@@ -6,7 +6,7 @@ public class Part1_Basics2 {
           } else {
               System.out.println("ON!"); //条件式が成立しない時の処理
           }
-
+//02:複数の条件を組み合わせてみよう
           int number2 = 2;
           if (number2 == 1) {
               System.out.println("問題ない");		// 条件式が成立したときの処理
