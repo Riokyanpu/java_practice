@@ -1,7 +1,8 @@
 public class Portfolio_Project2 {
     public static void main(String[] args) {
       runChapter1();  // Chapter 1のメソッド呼び出し
-      runChapter2();  // Chapter 1のメソッド呼び出し
+      runChapter2();  // Chapter 2のメソッド呼び出し
+      runChapter3();  // Chapter 3のメソッド呼び出し
 
     }
      
@@ -25,5 +26,16 @@ public class Portfolio_Project2 {
         } else {
             System.out.println("よくがんばったね");
         }
+      }
+//03:比較演算子で条件分岐してみよう
+    public static void runChapter3()  {
+		int place = (int)(Math.random() * 12+ 1);
+		System.out.print(place + "位");
+		// ここにif文を追加する
+		if (place < 7) {
+			System.out.println("入賞");
+		} else {
+			System.out.println("入賞圏外");
+		}
     }
 }
