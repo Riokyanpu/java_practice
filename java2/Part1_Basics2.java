@@ -41,6 +41,23 @@ public static void main(String[] args) {
         } else {
                 System.out.println("大凶"); //8,9,10
         }
+//05:RPGのクリティカルヒットを再現
+// RPGのクリティカルヒットを再現
+// 比較演算子 == > < >= <= !=
+
+
+// スライムと戦っている。
+// 1から10のサイコロをふって、
+// 6未満：サイコロの目だけダメージを与えたと表示。
+// 6以上：クリティカルヒットとして、100のダメージを与えたと表示。
+
+        int hit = (int)(Math.random() * 10 + 1);
+        //System.out.println(hit);
+        if (hit < 6) {
+        System.out.println("モンスターに、" + hit + "のダメージを与えた！");   
+        } else {
+            System.out.println("クリティカルヒット！モンスターに、100のダメージを与えた！");
+        }
 
     }
   

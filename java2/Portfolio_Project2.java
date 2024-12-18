@@ -39,7 +39,7 @@ public class Portfolio_Project2 {
 			System.out.println("入賞圏外");
 		}
     }
-//03:比較演算子で条件分岐してみよう
+//04:おみくじを作ってみよ
     public static void runChapter4()  {
 		int omikuji = (int)(Math.random() * 100 + 1);  // randomメソッドについては次のチャプターで説明します
 		if (omikuji  >=30 ) {
