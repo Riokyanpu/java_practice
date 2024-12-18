@@ -3,6 +3,7 @@ public class Portfolio_Project2 {
       runChapter1();  // Chapter 1のメソッド呼び出し
       runChapter2();  // Chapter 2のメソッド呼び出し
       runChapter3();  // Chapter 3のメソッド呼び出し
+      runChapter4();  // Chapter 4のメソッド呼び出し
 
     }
      
@@ -36,6 +37,15 @@ public class Portfolio_Project2 {
 			System.out.println("入賞");
 		} else {
 			System.out.println("入賞圏外");
+		}
+    }
+//03:比較演算子で条件分岐してみよう
+    public static void runChapter4()  {
+		int omikuji = (int)(Math.random() * 100 + 1);  // randomメソッドについては次のチャプターで説明します
+		if (omikuji  >=30 ) {
+			System.out.println("omikujiの中身は" + omikuji + "なので大吉");
+		} else {
+			System.out.println("omikujiの中身は" + omikuji + "なので大凶");
 		}
     }
 }
